@@ -22,10 +22,11 @@ a = int(input("Enter First Number: "))
 b = int(input("Enter your Second Number: "))
 c = int(input("Enter your Third Number: "))
 
-if a < b and a < c :
+if a <= b and a <= c :
     print(f"a is tha Smallest Number: {a}")
-elif b < c:
+elif b <= c and b <= a:
     print(f"b is the Smallest Number: {b}")
 else:
     print(f"c is the Smallest Number: {c}")
+
 
